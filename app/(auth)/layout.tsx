@@ -1,5 +1,9 @@
 const AuthLayout = ({ children }: { children: React.ReactNode }) => {
-	return <div className="h-full bg-red-200">{children}</div>;
+	return (
+		<div className="flex items-center justify-center h-full">
+			{children}
+		</div>
+	);
 };
 
 export default AuthLayout;
